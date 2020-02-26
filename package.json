@@ -1,0 +1,36 @@
+{
+  "name": "glui-vue",
+  "version": "0.1.1",
+  "private": false,
+  "main": "lib/glui.common.js",
+  "license": "MIT",
+  "author": "galan99",
+  "description": "Mobile web UI based on Vue",
+  "keywords": [
+	"glui",
+	"vue",
+	"vue ui",
+	"vue-components",
+	"web-components",
+	"component"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+	"build-lib": "vue-cli-service build --target lib --name glui --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
