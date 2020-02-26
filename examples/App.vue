@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="glui-vue"/>
+	<h3>Button 按钮</h3>
 	<ui-button>默认按钮</ui-button>
-	<ui-button @click="handleClick">点击提示消息</ui-button>
 	<ui-button type="primary">主要按钮</ui-button>
 	<ui-button type="success">成功按钮</ui-button>
 	<ui-button type="danger">危险按钮</ui-button>
-	<p>这是Switch开关</p>
+	<h3>Switch开关</h3>
 	<ui-switch v-model="check"></ui-switch>
 	<ui-switch v-model="check" :activeColor="'red'"></ui-switch>
+	<h3>toast提示</h3>
+	<ui-button @click="handleClick">点击提示消息</ui-button>
   </div>
 </template>
 

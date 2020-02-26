@@ -30,7 +30,7 @@ module.exports = {
 	// 基本路径 baseURL已经过时
 	publicPath: './',
 	// 输出文件目录
-	outputDir: 'lib',
+	outputDir: 'dist',
 	// eslint-loader 是否在保存的时候检查
 	lintOnSave: true,
 	// use the full build with in-browser compiler?
